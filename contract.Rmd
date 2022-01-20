@@ -1,9 +1,9 @@
 ---
-title: Demo Grading Contract
+title: Connolly Grading Contract
 output: github_document
 params:
-  weekonemonday: "2022-01-10"
-  name: John Tukey
+  weekonemonday: "2022-01-15"
+  name: Alex Connolly
 ---
 
 ```{r setup, include=FALSE}
@@ -158,5 +158,7 @@ I, `r params$name`, agree to :
   - Finish portfolio piece 10 by `r advdate(dayone, 15, assignment="f")`
   - Finish Unessay 2 due on `r advdate(dayone, 15, assignment="f")`
 - [ ] Portfolio completion and end-of-semester presentation
-  - Due on `r advdate(dayone, 15, assignment="f")`
+  - Due on `r advdate(dayone, 16, assignment="f")`
 
+
+*This contract and its due dates are able to be changed, +/- 3 days.
